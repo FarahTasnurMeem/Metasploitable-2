@@ -13,17 +13,23 @@ Vulnerability Assessment and Exploitation:
  ![image](https://github.com/user-attachments/assets/a62279b1-6e03-4fef-8ee8-ad1c89c35203)
 
  
-Exploit vulnerabilities using Metasploit modules.
-Write a detailed report on each vulnerability and its exploitation process.
+**Exploit vulnerabilities using Metasploit:**
 
-Learning Outcome: This will give hands-on experience with scanning, exploitation, and report generation.
---------------
+![image](https://github.com/user-attachments/assets/9169ff96-232c-4246-bb52-4e14a0ea64d6)
 
-Post-Exploitation with Metasploit:
+![image](https://github.com/user-attachments/assets/00324f6d-2737-4117-982e-7513958ac631)
 
-Goal: After successfully exploiting Metasploitable 2, focus on post-exploitation activities.
+
+**Detailed report on each vulnerability from Nessus is uploaded and its exploitation process.**
+
+**Learning Outcome:** hands-on experience with scanning, exploitation, and report generation.
+
+**Post-Exploitation with Metasploit:**
+
+Goal: After successfully exploiting Metasploitable 2, I will focus on post-exploitation activities.
 Steps:
 Gain a shell using Metasploit.
+
 Explore the target system to gather sensitive information (e.g., passwords, flags).
 Use tools like Meterpreter to escalate privileges and pivot within the network.
 Install persistence mechanisms.
