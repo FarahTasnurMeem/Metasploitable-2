@@ -3,13 +3,20 @@
 
 Vulnerability Assessment and Exploitation:
 
-Goal: Assess the vulnerabilities in Metasploitable 2 and exploit them using Metasploit.
-Steps:
-Perform a network scan using Nmap to identify open ports.
-Use vulnerability scanners like Nessus or OpenVAS to identify known vulnerabilities.
+**Goal A: Assess the vulnerabilities in Metasploitable 2 and exploit them using Metasploit.
+**
+** 1. Perform a network scan using Nmap to identify open ports:**
+![image](https://github.com/user-attachments/assets/f624d463-bba4-4403-9dac-81274e8fd40f)
+
+
+ **2. Using vulnerability scanners like Nessus or OpenVAS to identify known vulnerabilities.**
+ 
 Exploit vulnerabilities using Metasploit modules.
 Write a detailed report on each vulnerability and its exploitation process.
-Learning Outcome: This will give you hands-on experience with scanning, exploitation, and report generation.
+
+Learning Outcome: This will give hands-on experience with scanning, exploitation, and report generation.
+--------------
+
 Post-Exploitation with Metasploit:
 
 Goal: After successfully exploiting Metasploitable 2, focus on post-exploitation activities.
