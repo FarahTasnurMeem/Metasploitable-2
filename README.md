@@ -12,7 +12,19 @@ Vulnerability Assessment and Exploitation:
  **2. Using vulnerability scanners like Nessus or OpenVAS to identify known vulnerabilities.**
  ![image](https://github.com/user-attachments/assets/a62279b1-6e03-4fef-8ee8-ad1c89c35203)
 
- 
+ After discovering the open port 21 running vsFTPd 2.3.4 in my Nmap scan, I further investigated the vulnerability by reviewing the Nessus report. The Nessus scan flagged this specific version of vsFTPd as vulnerable due to the known backdoor in version 2.3.4, which allows for remote command execution.
+
+Based on this information, I decided to exploit the vulnerability using Metasploit. Here’s the step-by-step process:
+
+Reviewing Nessus Report: The Nessus scan confirmed that vsFTPd 2.3.4 was running on port 21 of the target machine, 192.168.4.54. The report highlighted the vsFTPd 2.3.4 backdoor vulnerability, which I knew could be exploited to gain root access.
+
+Researching the Exploit: I researched the vulnerability further and identified the vsftpd_234_backdoor Metasploit exploit as an appropriate method to gain access to the system.
+
+Using Metasploit: With the vulnerability confirmed by both Nmap and Nessus, I moved forward with Metasploit. I used the search vsftpd command to locate the correct exploit module for this backdoor and configured the module with the target IP 192.168.4.54.
+
+Running the Exploit: After setting the parameters in Metasploit, I ran the exploit, which successfully triggered the backdoor on the vsFTPd 2.3.4 service, granting me root access.
+
+Verifying Success: Finally, I ran the whoami command to confirm that I had gained root access to the target machine."
 **Exploit vulnerabilities using Metasploit:**
 
 ![image](https://github.com/user-attachments/assets/9169ff96-232c-4246-bb52-4e14a0ea64d6)
