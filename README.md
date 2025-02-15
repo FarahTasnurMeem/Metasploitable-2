@@ -10,6 +10,8 @@ Vulnerability Assessment and Exploitation:
 
 
  **2. Using vulnerability scanners like Nessus or OpenVAS to identify known vulnerabilities.**
+ ![image](https://github.com/user-attachments/assets/a62279b1-6e03-4fef-8ee8-ad1c89c35203)
+
  
 Exploit vulnerabilities using Metasploit modules.
 Write a detailed report on each vulnerability and its exploitation process.
