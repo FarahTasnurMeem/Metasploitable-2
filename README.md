@@ -4,7 +4,8 @@
 Vulnerability Assessment and Exploitation:
 
 **Goal A: Assess the vulnerabilities in Metasploitable 2 and exploit them using Metasploit.**
-** 1. Perform a network scan using Nmap to identify open ports:**
+
+1. Perform a network scan using Nmap to identify open ports:
 ![image](https://github.com/user-attachments/assets/f624d463-bba4-4403-9dac-81274e8fd40f)
 
 
